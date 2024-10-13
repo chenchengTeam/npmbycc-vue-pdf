@@ -1,0 +1,27 @@
+{
+  "name": "npmbycc-vue-pdf",
+  "version": "0.0.4",
+  "description": "npmbycc pdf vue.js",
+  "main": "src/vuePdfNoSss.vue",
+  "scripts": {
+    "type-check": "false",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.dev.js "
+  },
+  "keywords": [
+    "npmbycc",
+    "vue.js",
+    "pdf"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "loader-utils": "^1.4.0",
+    "raw-loader": "^4.0.1",
+    "worker-loader": "^2.0.0",
+    "pdfjs-dist": "^2.5.207 <2.8.0",
+    "vue-resize-sensor": "^2.0.0"
+  },
+  "devDependencies": {}
+}
